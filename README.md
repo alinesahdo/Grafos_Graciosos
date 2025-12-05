@@ -13,5 +13,5 @@ Clone o repositório e rode os arquivos diretamente com Python 3:
 ```bash
 git clone https://github.com/usuario/graceful-graphs.git
 cd graceful-graphs
-python3 forca_bruta.py
-python3 backtracking.py
+python3 gracious.py
+python3 backtracking_gracious.py
