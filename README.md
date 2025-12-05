@@ -4,8 +4,8 @@ Este repositório contém implementações em Python para verificar se um grafo 
 Um grafo é dito gracioso se existe uma função de rotulamento dos vértices com valores distintos em `{0,1,...,|E|}`, tal que cada aresta `(u,v)` receba o rótulo `|f(u)-f(v)|`, e os rótulos das arestas formem exatamente o conjunto `{1,2,...,|E|}`.
 
 ## Estrutura do repositório
-- `forca_bruta.py` → Verificação por força bruta usando permutações.
-- `backtracking.py` → Versão otimizada usando backtracking com poda.
+- `gracious.py` → Verificação por força bruta usando permutações.
+- `backtracking_gracious.py` → Versão otimizada usando backtracking com poda.
 
 ## Como executar
 Clone o repositório e rode os arquivos diretamente com Python 3:
