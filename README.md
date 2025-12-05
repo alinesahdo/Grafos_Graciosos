@@ -1,32 +1,17 @@
-# Verificador de Grafos Graciosos
+# Grafos Graciosos em Python
 
-Este repositório contém uma implementação, em Python, para verificar se um grafo admite um **rotulamento gracioso (graceful labeling)**.
+Este repositório contém implementações em Python para verificar se um grafo é **gracioso**.  
+Um grafo é dito gracioso se existe uma função de rotulamento dos vértices com valores distintos em `{0,1,...,|E|}`, tal que cada aresta `(u,v)` receba o rótulo `|f(u)-f(v)|`, e os rótulos das arestas formem exatamente o conjunto `{1,2,...,|E|}`.
 
-## Objetivos
+## Estrutura do repositório
+- `forca_bruta.py` → Verificação por força bruta usando permutações.
+- `backtracking.py` → Versão otimizada usando backtracking com poda.
 
-- Implementar um verificador utilizando:
-  - **Força bruta** (enumerando todas as permutações), adequado para grafos pequenos.
-  - **Backtracking com poda heurística**, permitindo explorar grafos um pouco maiores.
-- Ilustrar como funciona o espaço de busca do problema.
-- Fornecer código simples, didático e sem dependências externas.
+## Como executar
+Clone o repositório e rode os arquivos diretamente com Python 3:
 
----
-
-## Estrutura
-
-src/
-
-├── brute_force.py # Algoritmo simples por força bruta
-
-├── backtracking.py # Versão com backtracking e podas heurísticas
-
-└── examples.py # Exemplos de execução
-
-examples/
-
-├── P4.txt # Grafo caminho de 4 vértices
-
-├── star5.txt # Estrela com 5 vértices
-
-└── tree1.txt # Outro exemplo de árvore
-
+```bash
+git clone https://github.com/usuario/graceful-graphs.git
+cd graceful-graphs
+python3 forca_bruta.py
+python3 backtracking.py
