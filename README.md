@@ -2,7 +2,7 @@
 
 Este repositório contém uma implementação, em Python, para verificar se um grafo admite um **rotulamento gracioso (graceful labeling)**.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Implementar um verificador utilizando:
   - **Força bruta** (enumerando todas as permutações), adequado para grafos pequenos.
@@ -12,7 +12,7 @@ Este repositório contém uma implementação, em Python, para verificar se um g
 
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 src/
 
