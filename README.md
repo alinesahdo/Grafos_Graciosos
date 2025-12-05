@@ -15,12 +15,18 @@ Este repositório contém uma implementação, em Python, para verificar se um g
 ## 📁 Estrutura
 
 src/
+
 ├── brute_force.py # Algoritmo simples por força bruta
+
 ├── backtracking.py # Versão com backtracking e podas heurísticas
+
 └── examples.py # Exemplos de execução
 
 examples/
+
 ├── P4.txt # Grafo caminho de 4 vértices
+
 ├── star5.txt # Estrela com 5 vértices
+
 └── tree1.txt # Outro exemplo de árvore
 
